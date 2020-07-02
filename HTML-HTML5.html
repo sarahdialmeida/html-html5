@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<title>ROM POM POM POM POM</title>
+</head>
+<body>
+    <h1> Hello World </h1>
+    <h2>That´s my first HTML webpage</h1>
+    <h3>I love technology</h1>
+    <p>Developers can change the world!</p>
+</body>
+
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+
+</main>
+<ol>
+  <li>Water</li>
+  <li>Dogs</li>
+  <li>Moving house</li>
+</ol>
+
+<form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL">
+    <button type="submit" >submit</button>
+  </form>
+
+  <h4>The required attribute:</h4>
+  <form action="/submit-cat-photo">
+    <input type="text" required>
+  <button type="submit" >submit</button>
+  
+
+  <h4>Create a Set of Radio Buttons</h4>
+  <label for="indoor">
+    <input id="indoor" type="radio" name= "indoor-outdoor"> Indoor 
+  </label>  
+   
+   <label for="indoor">
+    <input id= "outdoor" type="radio" name="indoor-outdoor"> Outdoor
+  </label>
+
+  <h4>Create a Set of Checkboxes</h4>
+
+  <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+
+  <label for="wild"><input id="wild" type="checkbox" name="personality">  Wild </label>
+  
+  <label for="gorgeous"><input id="gorgeous" type="checkbox" name="personality"> Gorgeous </label>
+
+
+</form>
+
+<h4>Use the value attribute with Radio Buttons and Checkboxes</h4>
+
+<form action="/submit-cat-photo">
+
+    <label><input id="indoor" value="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+  
+    <label><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+  
+    <label><input type="checkbox" name="personality" value="loving"> Loving </label>
+  
+    <label><input type="checkbox" name="personality" value="lazy"> Lazy</label>
+  
+    <label><input type="checkbox" value="energetic" name="personality" > Energetic </label><br>
+  
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+  </main>
+  
+  <h4>Check Radio Buttons and Checkboxes by DefaultPassed</h4>
+  <form action="/submit-cat-photo">
+
+    <label><input id="indoor" value="indoor" type="radio" checked name="indoor-outdoor"> Indoor </label>
+  
+    <label><input id="outdoor" value="outdoor" type="radio" checked <name="indoor-outdoor"> Outdoor</label><br>
+  
+    <label><input type="checkbox" checked  name="personality"  <value="loving"> Loving </label>
+  
+    <label><input type="checkbox" checked name="personality" 
+        < value="lazy"> Lazy</label>
+  
+    <label><input type="checkbox" value="energetic" name="personality" checked > Energetic </label><br>
+  
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+  </main>
+
+  <h4> Nest Many Elements within a Single div Element</h4>
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  
+    <form action="/submit-cat-photo">
+      <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+      <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+      <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+      <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+      <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+      <input type="text" placeholder="cat photo URL" required>
+      <button type="submit">Submit</button>
+    </form>
+    </div>
+
+    </html>
