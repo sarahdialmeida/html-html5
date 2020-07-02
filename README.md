@@ -1,6 +1,6 @@
-##**FreeCodeCamp Responsive Web Design Certification:**
+## **FreeCodeCamp Responsive Web Design Certification:**
 
-#**Basic HTML & HTML5**
+# **Basic HTML & HTML5**
 
 - Introduction to Basic HTML and HTML5
 
