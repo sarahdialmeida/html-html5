@@ -44,7 +44,7 @@
 - Make Dead Links Using the Hash Symbol
 
 
--Turn an Image into a Link
+- Turn an Image into a Link
 
 
 - Create a Bulleted Unordered List
